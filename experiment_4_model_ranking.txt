@@ -1,0 +1,10 @@
+         algo_name  accuracy  macro_avg_f1  macro_avg_precision  macro_avg_recall  weighted_avg_f1  neutral_f1  neutral_precision  neutral_recall  negative_f1  positive_f1  combined_score
+               SVM  0.875965      0.875982             0.876678          0.875918         0.876010    0.836735           0.834087        0.839399     0.896781     0.894430        0.875975
+          LightGBM  0.757534      0.759289             0.763759          0.757545         0.759290         NaN                NaN             NaN          NaN          NaN        0.758587
+          LightGBM  0.732546      0.734973             0.742303          0.732585         0.734959         NaN                NaN             NaN          NaN          NaN        0.734002
+LogisticRegression  0.725469      0.723566             0.729550          0.725357         0.723597    0.631553           0.691766        0.580983     0.726675     0.812471        0.724328
+      RandomForest  0.667878      0.670237             0.681815          0.667971         0.670204         NaN                NaN             NaN          NaN          NaN        0.669293
+           XGBoost  0.705600      0.627080             0.618081          0.648474         0.716934         NaN                NaN             NaN          NaN          NaN        0.658488
+           XGBoost  0.699095      0.619256             0.611231          0.640550         0.710914         NaN                NaN             NaN          NaN          NaN        0.651192
+     MultinomialNB  0.655611      0.645314             0.671570          0.655417         0.645364    0.526826           0.706738        0.419927     0.675542     0.733573        0.649433
+               KNN  0.607965      0.546698             0.685684          0.607742         0.546798         NaN                NaN             NaN          NaN          NaN        0.571205
